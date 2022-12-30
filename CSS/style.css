@@ -1,0 +1,1527 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:white;
+}
+
+.head{
+  /*background-color:rgb(250, 181, 219);*/ 
+  width: 35%;
+  margin-left: 30%;
+}
+
+.head a{
+  text-decoration: none;
+  font-size: 28px;
+  color:rgb(15, 15, 15);
+  font-family: Brush Script MT;
+  padding-top: 0px;
+  padding-left: 18%;
+}
+/*---------------------- NAVIGATION AREA - START ---------------------------------*/
+.navbar{/*background-color: coral;*/
+  height: 230px;  
+}
+.nav-part{
+background-color:black;
+margin-top: 2px;    
+}
+.dropbtn {
+background-color: black;
+color: white;
+padding: 8px;
+font-size: 16px;
+border: none;
+text-decoration: none;
+width: 100%;  
+} 
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.nav-part:hover .dropdown-content {display: block;}
+
+.nav-part:hover .dropbtn {background-color: #b4a8b8;}
+
+/*---------------------- NAVIGATION AREA - END ---------------------------------*/
+
+/*---------------- MAIN AREA - START--------------------------------------------------*/
+.main{
+  /*background-color:blue;*/
+  height: 60em;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed; */
+  
+}
+.part1{
+/*background-color:rgb(0, 255, 21);*/
+    
+    height: 15em;
+    margin-top: 10%;
+    color: rgb(17, 17, 17);
+    padding-top: 30px;
+    padding-left: 35px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.part2{
+  /*background-color:rgb(0, 255, 21);*/
+  
+  height: 18em;
+    margin-top: 5px;
+    color: rgb(17, 17, 17);
+    padding: 20px;
+     position: relative;
+}
+.part2 img {
+ display: block;
+ width: 70%;
+ height: 78%;
+ margin-left: 60px;
+}
+/*..................................overlay.........................*/
+.overlay {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin-top: 15px;
+ 
+ opacity: 0;
+ transition: .5s ease;
+ /*background-color: #008CBA;*/
+ 
+ height: 18em;
+ 
+}
+
+.part2:hover .overlay {
+ opacity: 1;
+}
+
+.text {
+ color: white;
+ top: 50%;
+ left: 45%;
+ position: absolute;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%); 
+}
+.text iframe{
+ border-style: ridge;
+ /*border-color: black;*/
+ width: 25em;
+ height:18em;
+}
+/*..............................overlay end ................................*/ 
+/*---------------------login- start -----------------------------------------*/
+.login{
+  /*background-color: aqua;*/
+  width:90%;
+  height: 20em;
+  margin-left: 50px;
+  margin-top: 5px;
+  float:left;
+}
+.cont-login{
+  height: 35em;
+  margin-top: 20%;
+  margin-left: 5%;
+  /*background-color: #555;*/
+}
+form {border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #eef1f0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.login-part {
+  padding: 16px;
+  height: 18em;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/*----------------------------------------login - end ------------------*/
+/*--------------------MAIN AREA  - END--------------------------------------------------*/
+
+
+/*------------------ READING- ROOM - START ------------------------------------------------*/
+
+.main-book{
+ /* background-color:blue;*/
+   height: 140em;
+   margin-top: 80px;  
+ }
+  
+.container{
+  /*background-color: lawngreen; */
+  height: 135em;
+  float: left;
+}
+.freebook{
+  background-color:gray;
+  width: 200px;
+  height: 330px;
+  margin-left : 20px;
+  margin-top: 15px;
+  font-size: 8px;
+  float:left;
+  border-style: solid;
+}
+.book{
+  /*background-color:rgb(245, 18, 18);*/
+ 
+  margin-left : 10px;
+  margin-top: 15px;
+  font-size: 8px;
+  float:left;
+}
+
+.freebook img {width: 100px;
+      height: 250px;
+      width: 200px;
+      float: left;
+      border-bottom-style:inset;
+      border-color:black;
+      border-width: 2px;
+   }
+   .title{
+     background-color:rgb(255, 249, 249);
+     border-width:6px;  
+     font-size: 18px;
+     width: 200px;
+     margin-top: 1px;
+   }
+   .title a  {
+     text-decoration: none;
+     text-align: center;
+     width: 100px;
+     height: 20px;
+     margin-left: 50px;
+     margin-bottom: 5px;
+     background-color: rgb(86, 13, 180);
+     display:inline-block;
+     color: chartreuse;
+     border-radius: 30px;
+     font-size: 18px;
+     padding-top: 5px;
+   }
+   .title h5  {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(236, 22, 172);
+    
+  }
+  /* -------------------- for subpart of  free books ---------- */
+  .main-bookpart{
+   /* background-color:blue;*/
+     height: 98em;
+    
+     margin-top:80px;
+     
+     background-repeat: no-repeat;
+     float:left;
+   }
+  .container1{
+    /*background-color: lawngreen;*/
+    height: 92em; 
+   }
+   
+   .bookpart{
+    /*background-color:rgb(245, 18, 18);*/
+    height: 90em;
+    margin-top: 15px;
+    font-size: 8px;
+    float:left;
+  }
+  .book-link{
+    /* background-color: #3e8e41;*/
+     font-size: 18px;
+     margin-left: 15px;
+     margin-bottom: 5px;
+     margin-top: 25px;
+     float:left;
+    text-decoration: none;
+    text-align: center;
+    color:black
+   }
+   /*--------------------------- for subpart of  free books----------*/
+   /*------------------ READING- ROOM - END ----------------------------------------------------*/
+
+   
+   
+ /*********************-------------------CATEGORY - START *********-------------******************/
+ .main-category{
+  background-color:rgb(253, 252, 253);
+  height: 83em;
+  margin-top: 65px;
+}
+ .book1{
+  /*background-color:rgb(245, 18, 18);*/
+  height: 350px;
+  margin-left : 40px;
+  margin-top: 15px;
+  font-size: 8px;
+  float:left;
+}
+ .container-category h1
+ {
+	 font-family:brush script mt;
+	 color:#A9A9A9;
+ }
+ .banner img
+ {
+	width:100%;
+	height:300px;
+ } 
+ .book-category
+ {
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	float:left;
+	width:200px;
+	margin:20px; 
+	padding:10px;
+	height:430px;
+	 
+ }
+ .book-category img
+ {
+	height:250px;
+    width:200px;	
+ }
+ .title-category h4
+ {
+	text-decoration: none;
+    text-align: left;
+    color:#808080;
+	font-size: 14px;
+     
+ }
+ .title-category h5 
+ {
+    text-decoration: none;
+    text-align: left;
+    color:#A9A9A9;
+	font-size: 14px;
+    
+  }
+  
+ .title-category img
+ {
+	 width:40px;
+	 height:40px;
+	 float:left;
+	 
+ }
+	 
+ 
+ /****************-----------------****CATEGORY - END *********-------------------******************/
+ 
+ .footer{
+  /* background-color: #555;*/
+    font-size: .70em;
+    text-align: center;
+    margin-top: 5em;
+    color:black; 
+   
+   }
+   /*----------- --------------------ABOUT US  -START------------------------------------  */
+ .main-about{
+  /*background-color:blue;*/
+  height: 132em;
+  margin-top: 30px;
+  
+}
+ .aboutus
+{
+	padding-top:50px;
+	text-align:center;
+background-color: grey;
+	color:white;
+  margin-top: 65px;	
+}
+.row1
+{/*background-color: grey;*/
+  height: 45em; 
+}
+
+.column
+{/*background-color: #f44336;*/
+	
+  height: 25em;  	
+}
+.members
+{/*background-color: aqua;*/
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	height: 300px;
+  float: left;
+	margin-left: 1px;
+  margin-top: 5px;
+}
+.button1
+{
+	border:none;
+	outline:0;
+	display:inline-block;
+	padding-left:8px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+}
+.button1:hover
+{
+	background-color:#555;
+}
+.mydiv
+{/*background-color: blueviolet;*/
+	text-align:left;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+	width:400px;
+	margin-top: 5px;
+	margin-bottom:10px;
+  float: left;
+}
+.cont-memb
+{/*background-color: brown;*/
+  height: 130px;
+}
+.cont-memb a:hover
+{
+	color:grey;	
+}
+.cont-memb a:visited
+{
+	color:blue;	
+}
+
+
+.cont-memb a:link
+{
+	text-decoration:none;
+}
+.cont-memb h4{
+  text-align: center;
+}
+
+.row2
+{/*background-color: rgb(120, 12, 192);*/
+  height: 75em;
+  margin-top: 2px;
+  
+}
+
+.contactform 
+{
+  border-radius: 5px;
+  /*background-color: #880756;*/
+  padding: 20px;
+  
+ float: left;
+ 
+}
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ input[type=submit]:hover 
+{
+  background-color: #45a049;
+}
+.video-part{/*background-color: rgb(231, 13, 13);*/
+  height: 16em;
+  width: 25em;
+  float: left;
+  margin-top: 25px;
+  
+  
+}
+.video-part iframe{
+  border-style: ridge;
+  /*border-color: black;*/
+  width: 100%;
+  height:240px;
+}
+.updates
+{/*background-color: brown;*/
+	height: 15em;
+  width: 25em;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+ /*--------------- ---------------ABOUT US - END  ----------------------------------------------*/
+/*--------------------------SIGN UP START -----------------------------------------------------*/
+.main-signup{
+  /*background-color: #f44336;*/
+  height: 75em;
+}
+.cont-table{
+  height: 30em;
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  /*background-color: #555;*/
+}
+/* table css */
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+td, th { 
+  border: 1px solid rgb(106, 14, 226);  
+}
+th { 
+  background: rgb(16, 186, 216); 
+  color: white; 
+  font-weight: bold; 
+}
+.table_caption {
+font-family: Apple Chancery, cursive;
+color:#04AA6D;
+font-size: 25px;
+} 
+tbody td {
+text-align: center;
+}
+.table_italic {
+color:blue;
+font-weight: bold;
+}
+.table_UE {
+  background-color: burlywood;
+  animation: myanimation 10s infinite;
+  }
+  .table_OE {
+  background-color: rgb(240, 148, 106);
+  }
+  .table_RE {
+  background-color: rgb(250, 162, 221);
+  }
+  @keyframes myanimation {
+    0% {background-color: rgb(212, 65, 65);}
+    25%{background-color:yellow;}
+    50%{background-color:rgb(49, 247, 49);}
+    75%{background-color:rgb(248, 85, 85);}
+    100% {background-color: violet;}
+  }
+/*---------------------------------SIGNUP END ------------------------------------------------*/
+/* ---------------------------------------------FOR TABLET DEVICES ------------------------------------*/
+@media screen and (min-width: 700px) {
+  .head{
+   /* background-color:rgb(250, 181, 219);*/
+    
+    width: 25%;
+    margin-left: 30%;
+   
+  }
+  
+  .head a img{
+    width: 60%;
+  }
+  .head a{
+    text-decoration: none;
+    font-size: 28px;
+    color:rgb(15, 15, 15);
+    font-family: Brush Script MT;
+    
+   
+    padding-top: 0px;
+    padding-left: 18%;
+  
+  
+  }
+  .navbar {
+    height: 30px;
+    
+    }
+  .nav-part{
+      margin-top: 5px;
+      margin-left: 2px;
+      float: left;
+      background-color:white;
+      width: 16%;
+    }
+    .main{
+      /*background-color:blue;*/
+      height: 50em;
+      margin-top: 30px;
+      background-repeat: no-repeat;
+      
+    }
+  .dropbtn {
+      background-color: white;
+      color: rgb(10, 10, 10);
+      padding: 2px;
+      font-size: 9px;
+      font-weight:bold;
+      border: none;
+      text-decoration: none;
+      width: 75%;
+      
+    }
+    .part1{
+      /*background-color:rgb(0, 255, 21);*/
+          width:35%;
+          height: 14em;
+          margin-top: 75px;
+          margin-left: 40px;
+          color: rgb(17, 17, 17);
+          
+          float: left;
+      }
+      .part1 q br{
+        padding: 30%;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .part1 h5{
+        padding-left: 200px;
+        padding-top: 20px;
+        font-size: 14px;
+      }
+      .part2{
+       /*background-color:rgb(0, 255, 21);*/
+        width:50%;
+        height: 25em;
+          margin-top: 5px;
+          margin-left: 5px;
+          color: rgb(17, 17, 17);
+          padding: 0px;
+          float: left;
+          position: relative;
+      
+      }
+    .part2 img {
+      display: block;
+      width: 65%;
+      height: 75%;
+      padding-left: 15px;
+      padding-top: 10px;
+      
+    }
+    /*..............overlay........*/
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+      
+      opacity: 0;
+      transition: .5s ease;
+      /*background-color: #008CBA;*/
+      
+      height: 20em;
+      
+    }
+    
+    .part2:hover .overlay {
+      opacity: 1;
+    }
+    
+    .text {
+      color: white;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      
+      
+      
+    }
+    .text iframe{
+      border-style: ridge;
+      /*border-color: black;*/
+      width: 24em;
+      height:20em;
+    }
+    /*............................................overlay end ..............................*/ 
+    /*------------------------------------login- start -------------------------------------*/
+    .login{
+      /*background-color: aqua;*/
+      width:90%;
+      height: 20em;
+      margin-left: 60px;
+      margin-top: 5px;
+      float:left;
+    }
+    form {border: 3px solid #f1f1f1;
+    }
+    
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background-color: #eef1f0;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    
+    
+    .login-part {
+      padding: 16px;
+      height: 18em;
+    }
+    
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+    
+    /*--------------------login - end -------*/
+     /*----------------------------freebook-start-------------------------------*/
+     .main-book{
+     /* background-color:rgb(247, 21, 247); */
+      height:145em;
+      
+      margin-top: 8px;
+    }
+     .container{
+      /*background-color: lawngreen;*/
+      height: 140em;
+     
+      float: left;
+      margin-left :20px;
+    }
+     
+
+     .freebook{
+      background-color:gray;
+      width: 200px;
+      height: 330px;
+      margin-left :100px;
+      margin-top: 15px;
+      font-size: 8px;
+      float:left;
+      border-style: solid;
+    }
+    .book{
+      /*background-color:rgb(245, 18, 18);*/
+      height: 90em;
+      
+      margin-left : 5px;
+      margin-top: 15px;
+      font-size: 8px;
+      float:left;
+    }
+
+     /*---------freebook -end----*/
+     /* -------------------- for subpart of  free books ---------- */
+  .main-bookpart{
+    /*background-color:blue; */
+     height: 98em;
+    
+     margin-top:80px;
+     
+     
+     float:left;
+   }
+  .container1{
+   /* background-color: lawngreen; */
+    height: 92em;
+   }
+   
+   .bookpart{
+    /*background-color:rgb(245, 18, 18); */
+    height: 90em;
+    margin-top: 15px;
+    font-size: 8px;
+    float:left;
+  }
+   
+   /*--------------------------- for subpart of  free books-----------------------*/
+/*----------- --------------------ABOUT US  -START------------------------------------  */
+.main-about{
+  /*background-color:blue;*/
+  height: 105em;
+  margin-top: 20px;
+  /*background-attachment: fixed; */
+}
+ .aboutus
+{
+	padding:50px;
+	text-align:center;
+/*background-color: rgb(180, 241, 37);*/
+	color:white;
+  margin-top: 65px;	
+}
+.row1
+{/*background-color: grey;*/
+  height: 48em; 
+}
+
+.column
+{/*background-color: #f44336;*/
+	float:left;
+  margin-left: 45px;
+  
+}
+.members
+{/*background-color: aqua;*/
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	height: 300px;
+  width:150px;
+	padding:15px;
+  float: left;
+  margin-left: 2px;
+}
+
+.button1
+{
+	border:none;
+	outline:0;
+	display:inline-block;
+	padding-left:8px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+}
+
+
+.button1:hover
+{
+	background-color:#555;
+}
+.mydiv
+{/*background-color: blueviolet;*/
+	text-align:left;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+	width:300px;
+  height: 20em;
+	margin-bottom:10px;
+  float: left;
+  margin-left: 45px;
+}
+.cont-memb
+{/*background-color: brown;*/
+  height: 130px;
+}
+.cont-memb a:hover
+{
+	color:grey;	
+}
+.cont-memb a:visited
+{
+	color:blue;	
+}
+
+.cont-memb a:link
+{
+	text-decoration:none;
+}
+.cont-memb h4{
+  text-align: center;
+}
+
+.row2
+{/*background-color: rgb(120, 12, 192);*/
+  height: 42em;
+  
+}
+
+.contactform 
+{
+  border-radius: 5px;
+  /*background-color: #880756;*/
+  padding: 20px;
+  width:50%;
+ float: left;
+ margin-left: 5px;
+}
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ input[type=submit]:hover 
+{
+  background-color: #45a049;
+}
+.video-part{/*background-color: rgb(231, 13, 13);*/
+  height: 20em;
+  width: 25em;
+  float: left;
+  margin-left: 25px;
+  
+}
+.video-part iframe{
+  border-style: ridge;
+  /*border-color: black;*/
+  width: 100%;
+  height:240px;
+}
+.updates
+{/*background-color: brown;*/
+	height: 15em;
+  width: 25em;
+  float: left;
+  margin-left: 25px;
+  margin-top: 5px;
+  
+}
+
+
+ /*--------------- ---------------for about us -end ----------------------------------------------*/
+   
+  /*--------------------------SIGN UP START -----------------------------------------------------*/
+.main-signup{
+  /*background-color: #f44336;*/
+  height: 62em;
+} 
+.cont-table{
+  height: 18em;
+  
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  /*background-color: #555;*/
+}
+/*-------------------------SIGN UP EN D--------------------------------------------------------*/ 
+
+.footer{
+ 
+  font-size: .70em;
+	text-align: center;
+	margin-top: 5em;
+  color:black;
+ 
+ }
+}
+
+
+/*------------------------------ FOR DESKTOP DEVICES *------------------------------------------------*/
+@media screen and (min-width: 1200px ) {
+  /*---------------- CONTAINER FOR BOTH HEAD AND NAVIGATION SECTION ---------------*/
+  .cont{
+    /*background-color: #555;*/
+    height:10em ;
+  }
+  /* ------------------------------ HEAD AREA -- START ----------------------------*/
+  .cont-part1{
+    /*background-color: rgb(148, 11, 11);*/
+    height: 10em;
+    margin-left: 5px;
+    width:18%;
+    float:left;
+  }
+  
+  .head{
+ /*background-color:rgb(250, 181, 219);*/
+    
+    width: 80%;
+    margin-left: 0%; 
+  }
+  
+  .head  img{
+    width: 60%;
+    
+    
+  }
+  .head a{
+    text-decoration: none;
+    font-size: 28px;
+    color:rgb(15, 15, 15);
+    font-family: Brush Script MT;
+    padding-left: 18%;
+  }
+
+  /* ------------------------------ HEAD AREA - END ----------------------------*/
+  /* ------------------------------ NAVIGATION AREA - START ----------------------------*/
+  .cont-part2{
+    /* background-color: rgb(148, 11, 11);*/
+     height: 5em;
+     margin-left: 5px;
+     width: 80%;
+     margin-top: 35px;
+     float:left;
+   }
+  .navbar {
+    /*background-color: #3e8e41;*/
+    height: 30px;
+    margin-left: 2%;
+    float: left;
+    margin-top: 20px;
+    width: 95%;
+    }
+  .nav-part{
+    background-color:white;
+      margin-top: 5px;
+      float: left;
+      margin-left: 45px;
+      width: 100px;
+    }
+    .dropbtn {
+      background-color: white;
+      color:black;
+      padding: 2px;
+      font-size: 12px;
+      border: none;
+      text-decoration: none;
+      width: 100px
+      
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    /* ------------------------------ NAVIGATION AREA  - END ----------------------------*/
+    /* ------------------------------ MAIN AREA  - START ----------------------------*/
+    .main{
+     /*background-color:blue;*/
+      height: 40em;
+      margin-top: 8px;
+      background-repeat: no-repeat;
+      
+    }
+   
+    
+  
+    .part1{
+     /*background-color:rgb(0, 255, 21);*/
+          width:35%;
+          height: 12em;
+          margin-top: 75px;
+          margin-left: 70px;
+          color: rgb(17, 17, 17);
+          
+          float: left;
+      }
+      
+      .part2{
+      /* background-color:rgb(0, 255, 21);*/
+        width:40%;
+        height: 25em;
+          margin-top: 5px;
+          margin-left: 10px;
+          color: rgb(17, 17, 17);
+          padding: 0px;
+          float: left;
+          position: relative;
+      
+      }
+      .part2 img {
+        display: block;
+        width: 85%;
+        height: 24em;
+      }
+      /*.............................overlay........*/
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: .5s ease;
+        /*background-color: #008CBA;*/
+        
+        height: 25em; 
+      }
+      .part2:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);  
+      }
+      .text iframe{
+        border-style: ridge;
+        /*border-color: black;*/
+        width: 28em;
+        height:24em;
+      }
+      /*..............................overlay end ..........*/
+      /*--------------login- start -------------*/
+      .login{
+        /*background-color: aqua;*/
+        width:15%;
+        height: 20em;
+        margin-left: 2px;
+        margin-top: 5px;
+        float:left;
+      }
+      form {border: 3px solid #f1f1f1;
+      }
+      
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      button {
+        background-color: #eef1f0;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      .login-part {
+        padding: 16px;
+        height: 18em;
+      }
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      /*--------------------login - end -------*/
+       /* ------------------------------ MAIN AREA  - END ----------------------------*/
+
+  /*-------------------------------------SIGN UP  START---------------------------*/
+ .main-signup{
+   height: 40em;
+ }
+.cont-login{
+  height: 38em;
+  width: 45%;
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+  /*background-color: #555;*/
+}
+input[type=text], input[type=password] ,button {
+  
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1; 
+}
+ input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  /*background-color: #04AA6D;*/
+  color:black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 40px;
+  background-color: chartreuse;
+  padding: 16px;
+  background-color: white;
+  width:45%;
+  margin-left: 45px;
+}
+.cont-table{
+  height: 38em;
+  width: 45%;
+  margin-top: 2%;
+  margin-left: 5%;
+  float: left;
+ /* background-color: #555;*/
+}
+/* table css */
+
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+td, th { 
+  border: 1px solid rgb(106, 14, 226);  
+}
+th { 
+  background: rgb(16, 186, 216); 
+  color: white; 
+  font-weight: bold; 
+}
+.table_caption {
+font-family: Apple Chancery, cursive;
+color:#04AA6D;
+font-size: 25px;
+} 
+tbody td {
+text-align: center;
+}
+.table_italic {
+color:blue;
+font-weight: bold;
+}
+.table_UE {
+background-color: burlywood;
+animation: myanimation 10s infinite;
+}
+.table_OE {
+background-color: rgb(240, 148, 106);
+}
+.table_RE {
+background-color: rgb(250, 162, 221);
+}
+@keyframes myanimation {
+  0% {background-color: rgb(212, 65, 65);}
+  25%{background-color:yellow;}
+  50%{background-color:rgb(49, 247, 49);}
+  75%{background-color:rgb(248, 85, 85);}
+  100% {background-color: violet;}
+}
+ /*----------------------------Sign up END here------------------------*/
+   
+    /*------------------------------FREE BOOK - START ---------------------------------------*/
+    .main-book{
+     /* background-color:rgb(247, 21, 247);*/
+      height: 75em;
+      margin-top: 8px;
+    }
+     .container{
+     /* background-color: lawngreen;*/
+      height: 70em;
+      
+      float: left;
+    }
+     .freebook{
+      background-color:gray;
+      width: 200px;
+      height: 330px;
+      margin-left : 50px;
+      margin-top: 15px;
+      font-size: 8px;
+      float:left;
+      border-style: solid;
+    }
+    .book{
+      /*background-color:rgb(245, 18, 18);*/
+      height: 350px;
+      margin-top: 15px;
+      font-size: 8px;
+      float:left;
+    }
+
+    /* -------------------- for subpart of  free books ---------- */
+  .main-bookpart{
+    /*background-color:blue;*/
+     height: 58em;
+    
+     margin-top:80px;
+     
+     
+     float:left;
+   }
+  .container1{
+    /*background-color: lawngreen;*/
+    height: 52em;
+    
+   
+    
+   }
+   
+   .bookpart{
+    /*background-color:rgb(245, 18, 18);*/
+    height: 50em;
+    
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 8px;
+    float:left;
+  }
+   
+   /*-------------------- for subpart of  free books-----------------------*/
+    
+     /*-------------------------------------FREE BOOK  -END------------------------------*/
+/*----------- --------------------ABOUT US  -START------------------------------------  */
+ .main-about{
+  /*background-color:blue;*/
+  height: 85em;
+  margin-top: 30px;
+  
+}
+ .aboutus
+{
+	padding:50px;
+	text-align:center;
+background-color: grey;
+	color:white;
+  margin-top: 65px;	
+}
+.row1
+{/*background-color: grey;*/
+  height: 28em; 
+}
+
+.column
+{/*background-color: #f44336;*/
+	float:left;
+  margin-left: 20px;
+  width: 50%;
+  height: 420px;  	
+}
+.members
+{/*background-color: aqua;*/
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+	height: 300px;
+  width:150px;
+	padding:15px;
+  float: left;
+  margin-left: 10px;
+}
+.members image{
+  width:150px;
+  height: 150px;
+}
+
+.button1
+{
+	border:none;
+	outline:0;
+	display:inline-block;
+	padding-left:8px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+}
+
+
+.button1:hover
+{
+	background-color:#555;
+}
+.mydiv
+{/*background-color: blueviolet;*/
+	text-align:left;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+	width:400px;
+	margin-left:70px;
+	margin-bottom:10px;
+  float: left;
+}
+.cont-memb
+{/*background-color: brown;*/
+  height: 130px;
+}
+.cont-memb a:hover
+{
+	color:grey;	
+}
+.cont-memb a:visited
+{
+	color:blue;	
+}
+
+
+.cont-memb a:link
+{
+	text-decoration:none;
+}
+.cont-memb h4{
+  text-align: center;
+}
+
+.row2
+{/*background-color: rgb(120, 12, 192);*/
+  height: 42em;
+  
+}
+
+
+
+.contactform 
+{
+  border-radius: 5px;
+ /* background-color: #880756;*/
+  padding: 20px;
+  width:50%;
+ float: left;
+ margin-left: 20px;
+}
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ input[type=submit]:hover 
+{
+  background-color: #45a049;
+}
+.video-part{/*background-color: rgb(231, 13, 13);*/
+  height: 20em;
+  width: 25em;
+  float: left;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.video-part iframe{
+  border-style: ridge;
+  /*border-color: black;*/
+  width: 100%;
+  height:240px;
+}
+.updates
+{/*background-color: brown;*/
+	height: 15em;
+  width: 25em;
+  float: left;
+  margin-left: 90px;
+  margin-top: 5px;
+  
+}
+ /*--------------- ---------------for about us -end ----------------------------------------------*/
+     .footer{
+ 
+      font-size: .70em;
+      text-align: center;
+      margin-top: 5em;
+      color:black;
+     
+     }
+     
+}

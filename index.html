@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>BooksForYou</title>
+        <link rel="icon" type="image/x-icon" href="images/logo2.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script>
+            function myFunction() {
+              alert("You have successfully logged !");
+            }
+            </script>    
+    </head>
+ <body>
+    <div class="cont">
+        <div class="cont-part1">
+            <header class="head">
+            
+              
+                <a href="index.html"><img src="images/logo2.jpg" alt="bookforyou" width="100%"></a>
+                <a  href="index.html"><p>BooksForYou</p></a>
+               
+            
+            </header>
+        </div>
+        <div class="cont-part2">
+            <nav class="navbar" style="overflow:visible;">
+              
+            
+            
+                    <div class="nav-part">
+                        <button class="dropbtn"><a class="dropbtn" href="index.html">HOME</a></button>
+                    </div>
+                    <div class="nav-part">
+                        <button class="dropbtn">CATEGORIES</button>
+                            <div class="dropdown-content">
+                                <a href="CAT-travel.html"> Travel</a>
+                                <a href="CAT-history.html"> History</a>
+                                <a href="CAT-health.html"> Health</a>
+                                <a href="CAT-autobiography.html"> Autobiography</a>
+                                <a href="CAT-comic.html"> Comic</a>
+                            </div>
+                    </div>
+                    <div class="nav-part">
+                        <button class="dropbtn">READING ROOM </button>
+                            <div class="dropdown-content">
+                                <a href="freeEbook.html">  Free e-Books</a>
+                                <a href="signIn.html">Paid e-Books</a>
+                                
+                            </div>
+                    </div>
+                    <div class="nav-part">
+                        <button class="dropbtn"><a class="dropbtn" href="payment1.html">MY CART</a></button>
+                    </div>
+                    <div class="nav-part">
+                        <button class="dropbtn"><a class="dropbtn" href="contact.html">ABOUT US</a></button>
+                    </div>
+                    <div class="nav-part">
+                        <button class="dropbtn"><a class="dropbtn" href="signIn.html">SIGN UP</a></button>
+                        
+                    </div>
+                 
+            </nav> 
+        </div>     
+    </div>    
+        
+        <main  class="main">
+                <div class="part1"  >
+                    <h1>Reading Is Dreaming <br>With <br>Open Eyes</h1>
+                    
+                </div>
+                <div class="part2">
+                    <img src="images/book12.jpg" alt="bookforyou">
+                    <div class="overlay">
+                        <div class="text"> <iframe src="images/video/The Joy of Books.mp4 ">
+                            Your browser does not support the video tag.
+                            </iframe>
+                        </div>
+                  </div>
+                </div>
+                <div class="login">
+                    <form action="/action_page.php" method="post">
+  
+
+                        <div class="login-part">
+                          <label for="uname"><b>Username</b></label>
+                          <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                          <button type="submit" onclick="myFunction()"><a href="freeEbook.html" style="text-decoration: none;color: black;">Login</a></button>
+                          <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                          </label> 
+                          <span class="psw">Forgot <a href="signIn.html" style="text-decoration: none;color:blue;">password?</a></span>
+
+                        </div>
+                    </form>
+                </div>    
+        </main>
+         
+        <footer class="footer" >
+            <p> &copy;Copyright 2021&reg;All rights reserved by booksforyou online serives Pvt Ltd.</p>
+            <p><a href="mailto:booksforyou@gmail.com" style="text-decoration: none;color: black;">booksforyou@gmail.com</a></p>
+        </footer>
+   
+ </body>
+</html>

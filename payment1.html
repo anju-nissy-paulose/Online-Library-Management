@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/payment_style.css" type="text/css" />
+<script src="payment_script.js" async></script>
+<style>
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="col-75 container-col-75">
+    <div class="container">
+      <form id = "myForm" action="" autocomplete="on" onsubmit="submitFunction();return false">
+      
+        <div class="row">
+          <div class="col-50 container-col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" required maxlength="45" placeholder="Name">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" required maxlength="45" placeholder="email">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" required maxlength="45" placeholder="Street Address">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" required maxlength="45" placeholder="City">
+
+            <div class="row">
+              <div class="col-50 container-col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required maxlength="45" placeholder="State">
+              </div>
+              <div class="col-50 container-col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" maxlength="6" placeholder="ZIP Code">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50 container-col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+				      <span><img src="images/payment/visa.png" alt="visa" /></span>
+				      <span><img src="images/payment/mastercard.png" alt="mastercard" /></span>
+				      <span><img src="images/payment/amexcard.png" alt="amexcard" /></span>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" required maxlength="45" placeholder="Name On Card">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" required minlength="16" required maxlength="16" placeholder="WWWW-XXXX-YYYY-ZZZZ">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" required minlength="2" required maxlength="2" pattern="[0-9]+" placeholder="Exp. Month">
+            <div class="row">
+              <div class="col-50 container-col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" required minlength="4" required maxlength="4" placeholder="YYYY">
+              </div>
+              <div class="col-50 container-col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required minlength="3" required maxlength="3" placeholder="3 Digit">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn_submit">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container container-col-25">
+      <h4 class="section-header">CART &nbsp;&nbsp;<img src="images/payment/img_cart3.png" alt="img_cart3" /></h4>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column"><b>ITEM</b></span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image c-test1" src="images/payment/Book1.jpg" width="50" height="50">
+                        <span class="cart-item-title test1">Book1</span>
+                    </div>
+                    <span class="cart-price cart-column c-test1">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input c-test1" type="number" value="1">
+                        <button class="btn btn-danger c-test1" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/payment/Book2.jpg" width="50" height="50">
+                        <span class="cart-item-title">Book2</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>  
+        </div>
+      
+      <hr>
+      <div class="cart-total">
+        <div class="cart-total-title">Total</div>
+        <span class="cart-total-price">$29.97</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
